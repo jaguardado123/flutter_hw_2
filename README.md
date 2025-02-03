@@ -1,4 +1,4 @@
-# hw1
+# Homework 2 - Flutter Basics
 
 The objective for this homework is to add fundemental Flutter widgets for each of the questions so that they match the screenshots provided.
 
@@ -60,7 +60,7 @@ I have provided the floating action button which is part of the scaffold.
 [Floating Action Button Flutter Docs](https://api.flutter.dev/flutter/material/FloatingActionButton-class.html)
 
 
-<img src="https://github.com/bry02g/hw1_stateless_widgets/raw/master/screenshots/question4.png" width="40%">
+<img src="images/question4.png" width="40%">
 
 ## Question 5: Inputs
 

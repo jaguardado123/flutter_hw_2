@@ -23,7 +23,10 @@ class Question4 extends StatelessWidget {
           // Floating Action button is a child of the Scaffold
 
           floatingActionButton: FloatingActionButton(
-            child: const Text("FAB"),
+            child: const Text(
+              "FAB",
+              style: TextStyle(color: Colors.white),
+            ),
             onPressed: () {},
             backgroundColor: Colors.green,
           ),
@@ -35,9 +38,9 @@ class Question4 extends StatelessWidget {
                   children: <Widget>[
                     // ADD ICON BUTTON HERE
 
-                    // ADD RAISED BUTTON HERE
+                    // ADD Elevated BUTTON HERE
 
-                    // ADD FLAT BUTTON HERE
+                    // ADD Action BUTTON HERE
                   ]),
             ),
           )),
