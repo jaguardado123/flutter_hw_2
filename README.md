@@ -21,7 +21,7 @@ A scaffold with a title has been provided all you need to do is change the title
 
 [Icon Flutter Docs](https://api.flutter.dev/flutter/material/Icons-class.html)
 
-<img src="https://github.com/bry02g/hw1_stateless_widgets/raw/master/screenshots/question1.png" width="40%">
+<img src="images/question1.png" width="40%">
 
 ## Question 2: Texts
 
@@ -31,7 +31,7 @@ You will need to change font size, color, weight, and style.
 
 <br>
 
-<img src="https://github.com/bry02g/hw1_stateless_widgets/raw/master/screenshots/question2.png" width="40%">
+<img src="images/question2.png" width="40%">
 
 ## Question 3: Icons
 
@@ -41,7 +41,7 @@ You will be styling and adding social media inspireded icons. I have provide the
 
 [Icon Flutter Docs](https://api.flutter.dev/flutter/material/Icons-class.html)
 
-<img src="https://github.com/bry02g/hw1_stateless_widgets/raw/master/screenshots/question3.png" width="40%">
+<img src="images/question3.png" width="40%">
 
 
 ## Question 4: Buttons
@@ -75,7 +75,7 @@ You will need to add a text field, checkboxes in their checked/unchecked state, 
 [Switch Flutter Docs](https://api.flutter.dev/flutter/material/Switch-class.html)
 
 
-<img src="https://github.com/bry02g/hw1_stateless_widgets/raw/master/screenshots/question5.png" width="40%">
+<img src="images/question5.png" width="40%">
 
 
 
