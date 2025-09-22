@@ -91,3 +91,17 @@ URL: "https://i.insider.com/5e32f2a324306a19834af322?width=1800&format=jpeg&auto
 [Image Flutter Docs](https://flutter.dev/docs/cookbook/images/network-image)
 
 <img src="https://github.com/bry02g/hw1_stateless_widgets/raw/master/screenshots/question6.png" width="40%">
+
+<br>
+
+## Grading Criteria
+
+| Task | Value of each task | Possible Points Lost |
+|---|---|---|
+| Question 1: App Bar | 10 points | Must include a title, a search icon, and background color. |
+| Question 2:  Texts | 15 points | 3 points will be deducted per text not formatted correctly. |
+| Question 3:  Icons | 15 points | Icons must be the same shown in the screenshot. |
+| Question 4:  Buttons | 20 points | If icons are disabled 10 points are deducted (the buttons don’t have to go anywhere but they need to be clickable)  |
+| Question 5:  Inputs | 20 points | If an input doesn’t work properly (5 points deducted) |
+| Question 6: Images | 20 points | If image is not added (20 points deducted) |
+| | 100 points total | |
