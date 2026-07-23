@@ -1,14 +1,12 @@
 # Homework 2 - Flutter Basics
 
-The objective for this homework is to add fundemental Flutter widgets for each of the questions so that they match the screenshots provided.
+The objective for this homework is to add fundamental Flutter widgets to each of the questions so that they match the screenshots provided.
 
-All you modifications/changes will go under:
-lib/questions/
+All you modifications/changes will go under: `lib/questions/`
 
-you will change question#.dart files.
+You will change question#.dart files.
 
-the starting point for the whole application is: 
-lib/main.dart
+The starting point for the whole application is: `lib/main.dart`
 
 ## Question 1: App Bar
 
