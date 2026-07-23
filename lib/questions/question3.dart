@@ -42,19 +42,19 @@ class Question3 extends StatelessWidget {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: <Widget>[
-                        // ADD FB ICONS HERE
+                        // ADD THUMBS UP ICONS HERE
                       ],
                     ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: <Widget>[
-                        // ADD REDDIT ICONS HERE
+                        // ADD ARROW ICONS HERE
                       ],
                     ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: <Widget>[
-                        // ADD SNAP ICONS HERE
+                        // ADD SEND AND MESSAGE ICONS HERE
                       ],
                     ),
                   ]),
