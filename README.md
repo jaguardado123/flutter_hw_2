@@ -66,6 +66,8 @@ I have provided the floating action button which is part of the scaffold.
 
 You will need to add a text field, checkboxes in their checked/unchecked state, and switches in their on/off state.
 
+**Checkboxes/Switches will should NOT toggle! Hardcode their on/off state.**
+
 [Text Field Flutter Docs](https://flutter.dev/docs/cookbook/forms/text-input)
 
 [Checkbox Flutter Docs](https://api.flutter.dev/flutter/material/Checkbox-class.html)
