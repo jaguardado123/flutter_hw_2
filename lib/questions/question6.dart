@@ -5,24 +5,16 @@ class Question6 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-          appBar: AppBar(
-            leading: IconButton(
-              icon: const Icon(
-                Icons.arrow_back_ios,
-                color: Colors.white,
-              ),
-              onPressed: () {
-                Navigator.pop(context);
-              },
-            ),
-            title: const Text('Images'),
-          ),
-          body: const Center(
-            // ADD IMAGE AS A CHILD OF CENTER
-            child: null,
-          )),
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Images'),
+        centerTitle: true,
+        backgroundColor: Colors.lightBlueAccent,
+      ),
+      body: const Center(
+        // ADD IMAGE AS A CHILD OF CENTER
+        child: null,
+      ),
     );
   }
 }

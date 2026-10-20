@@ -5,61 +5,54 @@ class Question3 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-          appBar: AppBar(
-            leading: IconButton(
-              icon: const Icon(
-                Icons.arrow_back_ios,
-                color: Colors.white,
-              ),
-              onPressed: () {
-                Navigator.pop(context);
-              },
-            ),
-            title: const Text('Icons'),
-          ),
-          body: const Center(
-            child: Padding(
-              padding: EdgeInsets.all(8.0),
-              child: Column(
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Icons'),
+        centerTitle: true,
+        backgroundColor: Colors.lightBlueAccent,
+      ),
+      body: const Center(
+        child: Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: <Widget>[
+                Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: <Widget>[
-                        Icon(
-                          Icons.favorite_border,
-                          size: 40,
-                        ),
-                        Icon(
-                          Icons.favorite,
-                          size: 40,
-                          color: Colors.red,
-                        )
-                      ],
+                    // EXAMPLE
+                    Icon(
+                      Icons.favorite_border,
+                      size: 40,
                     ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: <Widget>[
-                        // ADD THUMBS UP ICONS HERE
-                      ],
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: <Widget>[
-                        // ADD ARROW ICONS HERE
-                      ],
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: <Widget>[
-                        // ADD SEND AND MESSAGE ICONS HERE
-                      ],
-                    ),
-                  ]),
-            ),
-          )),
+                    Icon(
+                      Icons.favorite,
+                      size: 40,
+                      color: Colors.red,
+                    )
+                  ],
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: <Widget>[
+                    // ADD THUMBS UP ICONS HERE
+                  ],
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: <Widget>[
+                    // ADD ARROW ICONS HERE
+                  ],
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: <Widget>[
+                    // ADD SEND AND MESSAGE ICONS HERE
+                  ],
+                ),
+              ]),
+        ),
+      ),
     );
   }
 }

@@ -5,45 +5,37 @@ class Question4 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-          appBar: AppBar(
-            leading: IconButton(
-              icon: const Icon(
-                Icons.arrow_back_ios,
-                color: Colors.white,
-              ),
-              onPressed: () {
-                Navigator.pop(context);
-              },
-            ),
-            title: const Text('Buttons'),
-          ),
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Buttons'),
+        centerTitle: true,
+        backgroundColor: Colors.lightBlueAccent,
+      ),
 
-          // Floating Action button is a child of the Scaffold
+      // Floating Action button is a parameter of the Scaffold
 
-          floatingActionButton: FloatingActionButton(
-            child: const Text(
-              "FAB",
-              style: TextStyle(color: Colors.white),
-            ),
-            onPressed: () {},
-            backgroundColor: Colors.green,
-          ),
-          body: const Center(
-            child: Padding(
-              padding: EdgeInsets.all(8.0),
-              child: Column(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: <Widget>[
-                    // ADD ICON BUTTON HERE
+      floatingActionButton: FloatingActionButton(
+        child: const Text(
+          "FAB",
+          style: TextStyle(color: Colors.white),
+        ),
+        onPressed: () {},
+        backgroundColor: Colors.green,
+      ),
+      body: const Center(
+        child: Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: <Widget>[
+                // ADD ICON BUTTON HERE
 
-                    // ADD ELEVATED BUTTON HERE
+                // ADD ELEVATED BUTTON HERE
 
-                    // ADD TEXT BUTTON HERE
-                  ]),
-            ),
-          )),
+                // ADD TEXT BUTTON HERE
+              ]),
+        ),
+      ),
     );
   }
 }
